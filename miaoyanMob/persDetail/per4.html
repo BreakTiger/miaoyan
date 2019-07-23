@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/newDetail.css">
+
+    <script src="../js/rem.js"></script>
+    <title>人物详情</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">人物详情</header>
+    <div class="slide"><img src="../img/分类@2x.png" alt=""></div>
+    <div class="slide_box">
+        <span class="slide_item  act"><a href="../index.html">首页</a></span>
+        <span class="slide_item"><a href="../our.html">我们</a> </span>
+        <span class="slide_item"><a href="../lesson.html">课程</a></span>
+        <span class="slide_item"><a href="../teacher.html">师资</a></span>
+        <span class="slide_item"><a href="../active.html">活动</a></span>
+        <span class="slide_item"><a href="../join.html">加盟</a></span>
+        <span class="slide_item"><a href="../consulting.html">资讯</a></span>
+
+    </div>
+
+    <!-- 内容 -->
+    <div class="nd_box">
+        <h3 class="nd_title">人物详情</h3>
+        <div class="nd_woc"> 李玉荣，7岁，是一个好动、聪明、调皮、可爱又善良的小公主。
+            兴趣爱好：画画、跳舞、阅读、唱歌、喜欢交朋友。</div>
+        <div class="pd_pic"><img src="../img/pers/4.png" alt=""></div>
+        <div class="pd_woc"> 我的梦想：长大成为一名著名的主持人。
+            在妙言视界我交到了很多新朋友，学到了很多在课本上学不到的知识，让我在课堂朗读、舞台朗诵都非常生动、非常自信。学会了如何去和陌生人交流，如何去采访。
+        </div>
+        <div class="pd_woc"> 代表作品《大山的孩子》曾获得浙江省小小朗读者一等奖
+            获得浙江省《童星梦想》临平赛区银奖
+            获得全国《多彩画童年》浙江省总决赛金奖
+            《江南女孩》获得第二季小小朗读者三等奖
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_logo"><img src="../img/logo@2x.png" alt=""></div>
+        <div class="footer_fo">
+            <div class="footer_foL">
+                <div class="footer_foL_woc">咨询电话：18069813619（城南陈老师）</div>
+                <div class="footer_foL_woc">商务合作：13346163206（吴老师）</div>
+                <div class="footer_foL_woc">总部地址：杭州市上城区钱江路8号钱江国际商务中心1502-1504</div>
+                <div class="footer_foL_woc">分校地址：杭州市拱墅区远洋国际中心E座904-906</div>
+            </div>
+            <div class="footer_foR"></div>
+
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script>
+    // slide
+    {
+        let n = 0;
+        $('.slide').click(() => {
+            n++
+            // console.log(n)
+            n % 2 == 1 ? $('.slide_box').addClass('s_show') : $('.slide_box').removeClass('s_show');
+            // if(n%2==1){
+            //     $('.slide_box').addClass('s_show')
+            // }else{
+            //     $('.slide_box').removeClass('s_show')
+            // }
+
+        })
+    }
+</script>
+
+</html>

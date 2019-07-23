@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/newDetail.css">
+
+    <script src="js/rem.js"></script>
+    <title>新闻详情</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">新闻详情</header>
+    <div class="slide"><img src="img/分类@2x.png" alt=""></div>
+    <div class="slide_box">
+        <span class="slide_item "><a href="index.html">首页</a></span>
+        <span class="slide_item"><a href="our.html">我们</a> </span>
+        <span class="slide_item"><a href="lesson.html">课程</a></span>
+        <span class="slide_item"><a href="teacher.html">师资</a></span>
+        <span class="slide_item"><a href="active.html">活动</a></span>
+        <span class="slide_item"><a href="join.html">加盟</a></span>
+        <span class="slide_item act"><a href="consulting.html">资讯</a></span>
+
+    </div>
+
+    <!-- 内容 -->
+    <div class="nd_box">
+        <h3 class="nd_title">新闻详情</h3>
+        <div class="nd_woc">妙言视界口才（自2010年起，成立已经8年）专注于少儿演·说能力培养，
+            着眼于国际视野，提供高品质的私人订制教学和实践平台服务，以培养孩子的口才能力和语言素质，
+            提升孩子的情商和影响力为目标。同时也是中国歌舞剧院朗诵考级点（国家文化部认证），
+            中国优秀特长生，小金话筒杯主持人选拔基地。成功帮助了2000多位儿童找到自信，学会讲演。电视台、电台、学校，随处可见妙言学子。
+        </div>
+        <div class="nd_pic"><img src="img/img_newD@2x.png" alt=""></div>
+        <div class="nd_woc">妙言视界口才（自2010年起，成立已经8年）专注于少儿演·说能力培养，
+            着眼于国际视野，提供高品质的私人订制教学和实践平台服务，以培养孩子的口才能力和语言素质，
+            提升孩子的情商和影响力为目标。同时也是中国歌舞剧院朗诵考级点（国家文化部认证），
+            中国优秀特长生，小金话筒杯主持人选拔基地。成功帮助了2000多位儿童找到自信，学会讲演。电视台、电台、学校，随处可见妙言学子。
+        </div>
+        <div class="nd_woc">妙言视界口才（自2010年起，成立已经8年）专注于少儿演·说能力培养，
+            着眼于国际视野，提供高品质的私人订制教学和实践平台服务，以培养孩子的口才能力和语言素质，
+            提升孩子的情商和影响力为目标。同时也是中国歌舞剧院朗诵考级点（国家文化部认证），
+            中国优秀特长生，小金话筒杯主持人选拔基地。成功帮助了2000多位儿童找到自信，学会讲演。电视台、电台、学校，随处可见妙言学子。
+        </div>
+        <div class="nd_pic"><img src="img/img_newD@2x.png" alt=""></div>
+        <div class="nd_woc">妙言视界口才（自2010年起，成立已经8年）专注于少儿演·说能力培养，
+            着眼于国际视野，提供高品质的私人订制教学和实践平台服务，以培养孩子的口才能力和语言素质，
+            提升孩子的情商和影响力为目标。同时也是中国歌舞剧院朗诵考级点（国家文化部认证），
+            中国优秀特长生，小金话筒杯主持人选拔基地。成功帮助了2000多位儿童找到自信，学会讲演。电视台、电台、学校，随处可见妙言学子。
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_logo"><img src="img/logo@2x.png" alt=""></div>
+        <div class="footer_fo">
+            <div class="footer_foL">
+                <div class="footer_foL_woc">咨询电话：18069813619（城南陈老师）</div>
+                <div class="footer_foL_woc">商务合作：13346163206（吴老师）</div>
+                <div class="footer_foL_woc">总部地址：杭州市上城区钱江路8号钱江国际商务中心1502-1504</div>
+                <div class="footer_foL_woc">分校地址：杭州市拱墅区远洋国际中心E座904-906</div>
+            </div>
+            <div class="footer_foR"></div>
+
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    // slide
+    {
+        let n = 0;
+        $('.slide').click(() => {
+            n++
+            // console.log(n)
+            n % 2 == 1 ? $('.slide_box').addClass('s_show') : $('.slide_box').removeClass('s_show');
+            // if(n%2==1){
+            //     $('.slide_box').addClass('s_show')
+            // }else{
+            //     $('.slide_box').removeClass('s_show')
+            // }
+
+        })
+    }
+</script>
+
+</html>

@@ -1,0 +1,43 @@
+/* 全来自于active */
+
+.active_title{
+    width:3rem;
+    height: .42rem;
+    margin-bottom: .45rem
+    }
+    .active_item{
+        width: 100%;
+        position: relative;
+        margin-bottom: .55rem;
+    }
+    .active_itemL{
+        width:3rem;
+        height: 2.5rem;
+        overflow: hidden;
+    }
+    .active_itemL img{
+       width:auto;
+       height:100%;
+    }
+    .active_itemR{
+        width: 3.6rem;
+        height: 1.6rem;
+        background: #FFE516;
+        position: absolute;
+        top: .38rem;
+        right: -0.15rem;
+        padding:.15rem .1rem .15rem .2rem;
+    }
+    .active_itemL_title{
+        font-size: .24rem;
+        color:#272727;
+        font-weight: bold
+    }
+    .active_itemL_woc{
+        font-size: .18rem;
+        color:#272727; 
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:3;
+        overflow: hidden;
+    }

@@ -1,0 +1,46 @@
+.join_box{
+    width: 7rem;
+    padding: .3rem .2rem .4rem;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.join_title{
+    width: 3.14rem;
+    height: .4rem;
+    margin-bottom: .4rem
+}
+.join_pic1{
+    width: 6.6rem;
+    height: 5.1rem;
+    margin: 0 auto;
+}
+.join_pic2{
+    width: 2.36rem;
+    height: .74rem;
+    margin: .5rem auto;
+
+}
+.join_pic3{
+    width: 6.02rem;
+    height: 6.1rem;
+    margin: 0 auto;
+
+}
+.join_woc{
+    /* width: 5.3rem; */
+    margin: 0.5rem auto;
+    font-size: .2rem;
+    color:#272727;
+    overflow: hidden;
+}
+.join_wocP{
+    width: .12rem;
+    height: .12rem;
+    border-radius: 50%;
+    float: left;
+    margin-right: .2rem;
+}
+.join_wocW{
+    float: left;
+}

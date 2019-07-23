@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding:0;
+    font-style: normal;
+    list-style:none;
+    text-decoration: none;
+}
+a{
+    color:inherit;
+}
+
+
+
+/* 头部 */
+.head {
+    width: 100%;
+    height: 160px;
+    background-image: url('../img/t-yet@2x.png');
+    margin: 0 auto;
+    background-position: center
+}
+.head_box{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.head_left {
+    width: 233px;
+    height: 109px;
+    margin:30px 230px 0 30px;
+    float: left;
+    /* width: 700px;
+    height: 160px;
+    padding: 30px 0 20px 366px;
+    float: left;
+    box-sizing: border-box; */
+}
+
+.head_right {
+    width: 55%;
+    height: 160px;
+    float: left;
+}
+
+.head_rightTop {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.head_rightbBot {
+    width: 644px;
+    height: 80px;
+}
+
+.head_rightTop_imgbox {
+    width: 34px;
+    height: 35px;
+    float: left;
+    margin-right: 16px;
+}
+
+.head_rightTop_span {
+    float: right;
+    color: #010101;
+    font-size: 14px;
+}
+
+.head_rightTop_spanA {
+    padding-right: 17px;
+    border-right: 1px solid #2C2C2C;
+    margin-right: 17px;
+}
+
+.head_rightbBot_ite {
+    width: 92px;
+    height: 80px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    /* cursor: pointer; */
+}
+
+.act {
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+/* 脚步 */
+.footer{
+    width: 100%;
+    height: 297px;
+    background: #615A55;
+}
+.footer_box{
+    width:1200px;
+    height: 297px;
+    margin: 0 auto;
+}
+.footer_left{
+    width: 264px;
+    height: 123px;
+    margin: 71px 0 0 50px;
+    float: left;
+}
+.footer_mid{
+    width: 625px;
+    height: 222px;
+    box-sizing: border-box;
+    border-left: 1px solid #fff;
+    padding: 20px  0 20px 30px;
+    float: left;
+    margin: 36px 100px 0 30px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap
+}
+.footer_midItem{
+    font-size: 20px;
+    color:#fff;
+}
+.footer_right{
+    width: 123px;
+    height: 123px;
+    margin-top: 87px;
+    background-image: url('../img/矩形 36 拷贝@2x.png');
+    float: left;
+    padding:10px 9px 9px 10px;
+    box-sizing: border-box;
+}

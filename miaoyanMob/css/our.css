@@ -1,0 +1,35 @@
+
+.our_title{
+    width: 3.55rem;
+    height: .39rem;
+    margin-bottom: .5rem
+}
+.our_titleLo{
+    width: .9rem;
+    height: .42rem;
+    margin: 0 auto .2rem;
+}
+.our_titleWoc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .2rem;
+    color: #272727;
+    margin-bottom: .2rem;
+}
+.our_woc{
+    font-size: .16rem;
+    color: #272727;
+    text-align: center;
+}
+.our_mid{
+    height: 2.82rem;
+    margin: .3rem 0;
+    width: 100%;
+}
+.our_bot{
+    width: 4.35rem;
+    height: 5rem;
+    margin:.2rem auto;
+}

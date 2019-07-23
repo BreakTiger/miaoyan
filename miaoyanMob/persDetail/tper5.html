@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/newDetail.css">
+
+    <script src="../js/rem.js"></script>
+    <title>人物详情</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">教师风采</header>
+    <div class="slide"><img src="../img/分类@2x.png" alt=""></div>
+    <div class="slide_box">
+        <span class="slide_item "><a href="../index.html">首页</a></span>
+        <span class="slide_item"><a href="../our.html">我们</a> </span>
+        <span class="slide_item"><a href="../lesson.html">课程</a></span>
+        <span class="slide_item act"><a href="../teacher.html">师资</a></span>
+        <span class="slide_item"><a href="../active.html">活动</a></span>
+        <span class="slide_item"><a href="../join.html">加盟</a></span>
+        <span class="slide_item"><a href="../consulting.html">资讯</a></span>
+
+    </div>
+
+    <!-- 内容 -->
+    <div class="nd_box">
+        <h3 class="nd_title">教师风采</h3>
+        <div class="nd_woc">    吕思航
+                毕业于华中师范大学武汉传媒学院
+                播音与主持专业</div>
+        <div class="pd_pic"><img src="../img/lusihang@2x.png" alt=""></div>
+        <div class="pd_wocs">   毕业后参与过全国性的语文课文朗读示范音频的录制，负责小学及初中时期湘教版语文课文的录制
+        </div>
+        <div class="pd_woc">  专业口才朗诵及主持老师
+                从事过两年的商业活动及晚会主持
+                大学时期通讯社社长
+                创立社团《音翼社》
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_logo"><img src="../img/logo@2x.png" alt=""></div>
+        <div class="footer_fo">
+            <div class="footer_foL">
+                <div class="footer_foL_woc">咨询电话：18069813619（城南陈老师）</div>
+                <div class="footer_foL_woc">商务合作：13346163206（吴老师）</div>
+                <div class="footer_foL_woc">总部地址：杭州市上城区钱江路8号钱江国际商务中心1502-1504</div>
+                <div class="footer_foL_woc">分校地址：杭州市拱墅区远洋国际中心E座904-906</div>
+            </div>
+            <div class="footer_foR"></div>
+
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script>
+    // slide
+    {
+        let n = 0;
+        $('.slide').click(() => {
+            n++
+            // console.log(n)
+            n % 2 == 1 ? $('.slide_box').addClass('s_show') : $('.slide_box').removeClass('s_show');
+            // if(n%2==1){
+            //     $('.slide_box').addClass('s_show')
+            // }else{
+            //     $('.slide_box').removeClass('s_show')
+            // }
+
+        })
+    }
+</script>
+
+</html>

@@ -1,0 +1,41 @@
+.lesson_title{
+    width: 3.83rem;
+    height: .42rem;
+    margin-bottom: .25rem;
+}
+.lesson_item{
+    width: 100%;
+    position: relative;
+    margin-bottom: .8rem;
+
+}
+.lesson_itemL{
+    width: 3.36rem;
+    height:3.9rem;
+    background: #615A55;
+    padding:.3rem 0.5rem 0 .2rem;
+}
+.lesson_itemL_title{
+    width: 100%;
+    font-size: .18rem;
+    color: #fff;
+    margin: 0 auto .1rem;
+    text-align: center;
+}
+.lesson_itemL_line{
+    background: #fff;
+    width: 100%;
+    height: .02rem;
+    margin-bottom: .25rem;
+}
+.lesson_itemL_woc{
+    font-size: .14rem;
+    color: #fff;
+}
+.lesson_itemR{
+    width: 3.58rem;
+    height: 3rem;
+    position: absolute;
+    top: .3rem;
+    right: 0;
+}

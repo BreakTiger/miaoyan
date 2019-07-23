@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/newDetail.css">
+
+    <script src="../js/rem.js"></script>
+    <title>人物详情</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">人物详情</header>
+    <div class="slide"><img src="../img/分类@2x.png" alt=""></div>
+    <div class="slide_box">
+        <span class="slide_item  act"><a href="../index.html">首页</a></span>
+        <span class="slide_item"><a href="../our.html">我们</a> </span>
+        <span class="slide_item"><a href="../lesson.html">课程</a></span>
+        <span class="slide_item"><a href="../teacher.html">师资</a></span>
+        <span class="slide_item"><a href="../active.html">活动</a></span>
+        <span class="slide_item"><a href="../join.html">加盟</a></span>
+        <span class="slide_item"><a href="../consulting.html">资讯</a></span>
+
+    </div>
+
+    <!-- 内容 -->
+    <div class="nd_box">
+        <h3 class="nd_title">人物详情</h3>
+        <div class="nd_woc"> 曹若恒，七岁了，性格活泼、开朗、乐观。喜欢画画、讲故事，爬山，旅游（因为“读万卷书不如行万里路”）。
+            最喜欢讲故事，因为讲故事可以学到更多的知识，变的更自信。</div>
+        <div class="pd_pic"><img src="../img/pers/5.png" alt=""></div>
+        <div class="pd_woc"> 我很喜欢在妙言上课，这里有很多的小伙伴，也可以学到好多知识。我很喜欢旅游。 </div>
+        <div class="pd_woc"> 优秀作品：《我想》、〈小猫照镜子〉〈小熊过桥〉〈起的早〉
+            获奖情况：秒言世界“优秀学员”、榜样学员、第一季“小小朗读者”比赛幼儿组优秀奖，第二季“小小朗读者”比赛幼儿组二等奖、
+            国家文化部认证的朗诵一、二级证书；跆拳道考级七级
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_logo"><img src="../img/logo@2x.png" alt=""></div>
+        <div class="footer_fo">
+            <div class="footer_foL">
+                <div class="footer_foL_woc">咨询电话：18069813619（城南陈老师）</div>
+                <div class="footer_foL_woc">商务合作：13346163206（吴老师）</div>
+                <div class="footer_foL_woc">总部地址：杭州市上城区钱江路8号钱江国际商务中心1502-1504</div>
+                <div class="footer_foL_woc">分校地址：杭州市拱墅区远洋国际中心E座904-906</div>
+            </div>
+            <div class="footer_foR"></div>
+
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script>
+    // slide
+    {
+        let n = 0;
+        $('.slide').click(() => {
+            n++
+            // console.log(n)
+            n % 2 == 1 ? $('.slide_box').addClass('s_show') : $('.slide_box').removeClass('s_show');
+            // if(n%2==1){
+            //     $('.slide_box').addClass('s_show')
+            // }else{
+            //     $('.slide_box').removeClass('s_show')
+            // }
+
+        })
+    }
+</script>
+
+</html>

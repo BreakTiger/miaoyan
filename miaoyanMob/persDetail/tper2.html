@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/newDetail.css">
+
+    <script src="../js/rem.js"></script>
+    <title>人物详情</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">教师风采</header>
+    <div class="slide"><img src="../img/分类@2x.png" alt=""></div>
+    <div class="slide_box">
+        <span class="slide_item "><a href="../index.html">首页</a></span>
+        <span class="slide_item"><a href="../our.html">我们</a> </span>
+        <span class="slide_item"><a href="../lesson.html">课程</a></span>
+        <span class="slide_item act"><a href="../teacher.html">师资</a></span>
+        <span class="slide_item"><a href="../active.html">活动</a></span>
+        <span class="slide_item"><a href="../join.html">加盟</a></span>
+        <span class="slide_item"><a href="../consulting.html">资讯</a></span>
+
+    </div>
+
+    <!-- 内容 -->
+    <div class="nd_box">
+        <h3 class="nd_title">教师风采</h3>
+        <div class="nd_woc">    韩雯：少儿表演.口才.朗诵老师</div>
+        <div class="pd_pic"><img src="../img/wenwne@2x.png" alt=""></div>
+        <div class="pd_wocs">   童心是绿色的种子，只有辛勤耕耘，才能有桃李缤纷满天涯。
+        </div>
+        <div class="pd_woc">   性格开朗爱笑 坚韧自律，喜欢和孩子交流。精修播音主持专业，曾求学于河南大学路庆平等多名教授并受专业指导。
+                两年儿童故事录音配音工作经验。精修小儿急救医学，获得育婴师证书等。运用儿童心理教学，深入表演与口才研究。
+                帮助上千名孩子自信的走上舞台，获得省市各种荣誉奖项。
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_logo"><img src="../img/logo@2x.png" alt=""></div>
+        <div class="footer_fo">
+            <div class="footer_foL">
+                <div class="footer_foL_woc">咨询电话：18069813619（城南陈老师）</div>
+                <div class="footer_foL_woc">商务合作：13346163206（吴老师）</div>
+                <div class="footer_foL_woc">总部地址：杭州市上城区钱江路8号钱江国际商务中心1502-1504</div>
+                <div class="footer_foL_woc">分校地址：杭州市拱墅区远洋国际中心E座904-906</div>
+            </div>
+            <div class="footer_foR"></div>
+
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script>
+    // slide
+    {
+        let n = 0;
+        $('.slide').click(() => {
+            n++
+            // console.log(n)
+            n % 2 == 1 ? $('.slide_box').addClass('s_show') : $('.slide_box').removeClass('s_show');
+            // if(n%2==1){
+            //     $('.slide_box').addClass('s_show')
+            // }else{
+            //     $('.slide_box').removeClass('s_show')
+            // }
+
+        })
+    }
+</script>
+
+</html>
